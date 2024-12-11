@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+.container {
+    padding: 20px;
+}
+.ad {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #f00;
+    width: 300px;
+    background: #222;
+    border-radius: 5px;
+}

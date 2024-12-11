@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+.container {
+    padding: 20px;
+}
+.link {
+    color: #f00;
+    text-decoration: none;
+    font-size: 18px;
+}
+.link:hover {
+    color: #c00;
+}
+
+@keyframes torrenttext {
+    0% {
+        color: rgb(195,34,34);
+        color: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,121,45,1) 100%); 
+    };
+    25% {
+        color: rgb(253,121,45);
+        color: linear-gradient(0deg, rgba(253,121,45,1) 0%, rgba(195,34,34,1) 100%);
+    }
+    50% {
+        color: rgb(195,34,34);
+        color: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,121,45,1) 100%); 
+    };
+    75% {
+        color: rgb(253,121,45);
+        color: linear-gradient(0deg, rgba(253,121,45,1) 0%, rgba(195,34,34,1) 100%);
+    }
+    100% {
+        color: rgb(195,34,34);
+        color: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,121,45,1) 100%); 
+    };
+}
+
+.torrent {
+    animation: torrenttext 3s infinite;
+}
