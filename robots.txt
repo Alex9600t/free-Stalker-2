@@ -1,5 +1,7 @@
 User-agent: *
-Disallow: /ads.html
-Disallow: /final.html
+Disallow: /ads/index.html
+Disallow: /final/index.html
+Disallow: /ads
+Disallow: /final
 Allow: /
 Sitemap: https://free-stalker-2.bduidan.ru/sitemap.xml
