@@ -3,5 +3,7 @@ Disallow: /ads/index.html
 Disallow: /final/index.html
 Disallow: /ads
 Disallow: /final
+Disallow: /download/index.html
+Disallow: /download
 Allow: /
 Sitemap: https://free-stalker-2.bduidan.ru/sitemap.xml
